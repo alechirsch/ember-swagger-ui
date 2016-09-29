@@ -30,6 +30,7 @@ module.exports = {
     app.import(app.bowerDirectory + '/swagger-ui/dist/lib/jquery.ba-bbq.min.js');
     app.import(app.bowerDirectory + '/swagger-ui/dist/lib/jquery.slideto.min.js');
     app.import(app.bowerDirectory + '/swagger-ui/dist/lib/jquery.wiggle.min.js');
+    app.import(app.bowerDirectory + '/swagger-ui/dist/lib/lodash.min.js');
     app.import(app.bowerDirectory + '/underscore/underscore-min.js', { exports: { 'underscore-min': [ 'default' ] } });
     app.import(app.bowerDirectory + '/swagger-ui/dist/lib/handlebars-4.0.5.js');
     app.import(app.bowerDirectory + '/swagger-ui/dist/lib/backbone-min.js');
